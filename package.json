@@ -1,0 +1,26 @@
+{
+  "name": "ExtremoSistemas-App",
+  "version": "1.0.0",
+  "description": "OpenShift Sample Application",
+  "author": {
+    "name": "Marcio Jota Coelho",
+    "email": "coelho@extremosistemas.com.br",
+    "url": "http://www.extremosistemas.com.br/"
+  },
+  "private": true,
+  "main": "server.js",  
+  "homepage": "http://site-extremo.rhcloud.com/",
+  "repository": {
+    "type": "git",
+    "url": "ssh://57c79e702d5271319e000006@site-extremo.rhcloud.com/~/git/site.git/"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "express": "~3.4.4"
+  },
+  "devDependencies": {
+
+  }
+}
